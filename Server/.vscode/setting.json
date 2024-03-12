@@ -1,0 +1,12 @@
+{
+  "dotnet.preferCSharpExtension": true,
+  "saveAndRunExt": {
+    "commands": [
+      {
+        "match": "\\.(cs$|js$|html$)",
+        "isShellCommand": false,
+        "cmd": "workbench.action.debug.restart"
+      }
+    ]
+  }
+}
