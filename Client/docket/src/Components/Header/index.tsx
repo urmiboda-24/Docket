@@ -49,7 +49,7 @@ const Header = (props: Props) => {
     }
   };
   const drawer = (
-    <div>
+    <Box>
       <Toolbar className="header-toolbar">
         <Image src={desktopLogo} alt="docket" />
       </Toolbar>
@@ -66,7 +66,7 @@ const Header = (props: Props) => {
           </ListItem>
         ))}
       </List>
-    </div>
+    </Box>
   );
   const container =
     window !== undefined ? () => window().document.body : undefined;
@@ -94,7 +94,7 @@ const Header = (props: Props) => {
               <MenuIcon />
             </IconButton>
             <Box>
-              <Typography variant="h6" noWrap component="div">
+              <Typography variant="h6" noWrap>
                 Kitty John
               </Typography>
             </Box>
